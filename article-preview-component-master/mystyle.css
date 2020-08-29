@@ -1,0 +1,214 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+h1, h2 {
+    color: hsl(217, 19%, 35%);
+}
+
+h1 {
+    font-size: 1.2vw;
+}
+
+#content, #date {
+    font-size: 0.8vw;
+}
+
+#author {
+    font-size: 0.8vw;
+    margin-top: 2.3vw;
+    margin-left: 4vw;
+}
+
+#date {
+    color: hsl(212, 23%, 69%);
+    margin-left: 4vw;
+    margin-top: -0.6vw;
+}
+
+#share {
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 50%;
+    padding: 0.4vw;
+    float: right;
+    width: 1vw;
+    margin-top: -2.8vw;
+}
+
+#written {
+    background-color: white;
+    margin-left: 25vw;
+    margin-right: 2.5vw;
+    margin-top: 2vw;
+}
+
+#avatar {
+    float: left; 
+    border-radius: 50%;
+    width: 3vw;
+    margin-top: 1vw;
+}
+
+#component {
+    z-index: 1;
+    background-color: white;
+    border-radius: 15px; 
+    color: hsl(214, 17%, 51%);
+    height: 18vw;
+    width: 50vw;
+    font-family: Manrope; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#drawers {
+    float: left; 
+    border-top-left-radius: 15px; 
+    border-bottom-left-radius: 15px; 
+    max-height: 100%;
+}
+
+body {
+    background-color: hsl(210, 46%, 95%);
+}
+
+#shareLinks {
+    font-size: 1vw;
+    height: 1.3vw;
+    width: 10vw;
+    position: absolute;
+    bottom: 30%;
+    right: -6.2%;
+    background-color: hsl(217, 19%, 35%);
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 0.8vw;
+    padding-bottom: 0.5vw;
+    border-radius: 10px;
+    color:hsl(212, 23%, 69%);
+    z-index: 2;
+}
+
+#facebook {
+    padding-left: 1vw; 
+    padding-right: 0.5vw;
+    height: 1vw;
+}
+
+#twitter {
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    height:1vw;
+}
+
+#pinterest {
+    padding-left: 0.5vw;
+    height: 1vw;
+}
+
+.pointer {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    border-color: hsl(217, 19%, 35%) transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    margin-left: -15px;
+    bottom: -15px;
+    left: 50%;
+}
+
+@media only screen and (max-width: 375px) {
+  #component {
+      height: 150vw;
+      width: 90vw;
+    }
+
+  #drawers {
+      width: 100%;
+      height: auto;
+      border-bottom-left-radius: 0px;
+      border-top-right-radius: 15px;
+    }
+
+  #written {
+      margin-left: 10vw;
+      margin-right: 10vw;
+      margin-top: 82vw;
+    }
+
+  h1 {
+      font-size: 4.3vw;
+    }
+
+  #author {
+      font-size: 3.5vw;
+      margin-left: 15vw;
+      margin-top: 6vw;
+    }
+
+  #avatar {
+      width: 12vw;
+    }
+
+  #date {
+      margin-left: 15vw;
+      margin-top: -3vw;
+    }
+
+  #share {
+      width: 4vw;
+      padding: 2vw;
+      margin-top: -12vw;
+    }
+
+  #content, #date {
+      font-size: 3.6vw;
+    }
+
+  #shareLinks {
+      padding-left: 10vw;
+      font-size: 5vw;
+      width: 88%;
+      bottom: 0;
+      margin-right: 5.2vw;
+      height: 18vw;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+    }
+
+  .pointer {
+      display: none;
+    }
+
+  #facebook {
+      height: 5vw;
+      padding-left: 2vw;
+      padding-right: 2vw;
+      padding-top: 5vw;
+      margin-left: 5vw;
+    }
+
+  #twitter {
+      height: 5vw;
+      padding-left: 2vw;
+      padding-right: 2vw;
+      padding-top: 5vw;
+    }
+
+  #pinterest {
+      height: 5vw;
+      padding-left: 2vw;
+      padding-right: 2vw;
+      padding-top: 5vw;
+    }
+}
