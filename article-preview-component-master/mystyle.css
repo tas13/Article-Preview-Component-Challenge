@@ -38,6 +38,7 @@ h1 {
     float: right;
     width: 1vw;
     margin-top: -2.8vw;
+    filter: "";
 }
 
 #written {
