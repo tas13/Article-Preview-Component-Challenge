@@ -15,6 +15,13 @@ h1 {
     font-size: 1.2vw;
 }
 
+#text {
+  position: absolute;
+  margin-top: -0.2vw;
+  display: inline-block; 
+  font-weight: 500;
+}
+
 #content, #date {
     font-size: 0.8vw;
 }
@@ -38,7 +45,6 @@ h1 {
     float: right;
     width: 1vw;
     margin-top: -2.8vw;
-    filter: "";
 }
 
 #written {
@@ -95,11 +101,14 @@ body {
     border-radius: 10px;
     color:hsl(212, 23%, 69%);
     z-index: 2;
+    transition: opacity 1s;
+    opacity: 0;
 }
 
 #facebook {
     padding-left: 1vw; 
     padding-right: 0.5vw;
+    margin-left: 3.2vw;
     height: 1vw;
 }
 
@@ -154,22 +163,28 @@ body {
   #author {
       font-size: 3.5vw;
       margin-left: 15vw;
-      margin-top: 6vw;
+      margin-top: 3vw;
+      position: absolute;
     }
 
   #avatar {
+      position: absolute;
       width: 12vw;
     }
 
   #date {
+      position: absolute;
       margin-left: 15vw;
-      margin-top: -3vw;
+      margin-top: 8vw;
     }
 
   #share {
       width: 4vw;
       padding: 2vw;
-      margin-top: -12vw;
+      margin-top: 5vw;
+      margin-left: 60vw;
+      position: absolute;
+      z-index: 5;
     }
 
   #content, #date {
@@ -196,8 +211,12 @@ body {
       padding-left: 2vw;
       padding-right: 2vw;
       padding-top: 5vw;
-      margin-left: 5vw;
+      margin-left: 22vw;
     }
+
+  #text {
+    margin-top: 4vw;
+  }
 
   #twitter {
       height: 5vw;
